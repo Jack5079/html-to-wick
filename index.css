@@ -1,0 +1,46 @@
+html, body {
+  background: white;
+  color: black;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.circle {
+  background: linear-gradient(to top right, blue, red);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  display: block;
+}
+
+footer {
+  margin: 1em;
+  margin-top: 2em;
+  border-top: 1px solid black;
+}
+
+input {
+  display: none;
+}
+
+label {
+  text-align: center;
+  border-radius: 10em;
+  overflow: hidden;
+  background: linear-gradient(to top right, blue, red);
+  color: white;
+  padding: 0.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+  html, body {
+    color: white;
+    background: black;
+  }
+  footer {
+    border-top: 1px solid white;
+  }
+}
