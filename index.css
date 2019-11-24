@@ -1,3 +1,7 @@
+input {
+  display: none;
+}
+
 label {
   text-align: center;
   border-radius: 10em;
